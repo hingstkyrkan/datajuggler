@@ -21,7 +21,7 @@ dumpers = {
 }
 
 if __name__ == "__main__":
-    l, d = basename(argv[0])
+    l, d = basename(argv[-1])
     loader = loaders[l]
     dumper = dumpers[d]
 
